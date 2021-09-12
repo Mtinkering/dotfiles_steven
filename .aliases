@@ -1,18 +1,6 @@
-#sql config
-alias mysql="/usr/local/mysql/bin/mysql"
-alias mysqlserver="sudo /usr/local/mysql/support-files/mysql.server"
-#refresh .bash_profile
+alias ssh-cp-uat="ssh -i ~/.ssh/steven.pem steven-singlife@10.15.1.42 -p 8822"
+alias ssh-ap-uat="ssh -i ~/.ssh/steven.pem steven-singlife@10.15.3.124 -p 8822"
+alias docker-node-bash="docker exec -it node.singlife.docker bash"
+alias portals="cd /Users/steven/projects/portals"
 alias refprof="source ~/.bash_profile"
-
-#shortcut to scrappee
-alias scraper="cd '/Users/stevennguyen/knorex/cs-scrappee'"
-alias scraper-client="cd '/Users/stevennguyen/knorex/cs-scrappee/slyd/app'"
-
-#shortcut to curator
-alias curator="cd '/Users/stevennguyen/knorex/bd-content-studio' && nvm use 0.10.40"
-
-#start a simple python server
-alias .ps="python -m SimpleHTTPServer"
-
-#go to learning repo
-alias .learning="cd '/Users/stevennguyen/steven/learning'"
+alias delbranch='git branch | grep -v "development\|staging\|production" | xargs git branch -D'
