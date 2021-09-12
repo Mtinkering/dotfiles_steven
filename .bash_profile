@@ -34,7 +34,4 @@ export NVM_DIR="$HOME/.nvm"
 #ssh key auto add
 #ssh-add ~/.ssh/id_rsa
 
-#configure nvm
-source $(brew --prefix nvm)/nvm.sh
-
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
